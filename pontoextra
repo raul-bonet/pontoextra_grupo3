@@ -1,0 +1,27 @@
+let grupo=["ARTUR ARAUJO","DIEGO ARYEL","EDUARDO GONÇALVES","GABRIEL JANUARIO","GIANLUCA DUARTE","GIOVANNA HIPOLITO","GRAZIELI VITORIA","GUILHERME MOREIRA","GUILHERME SANTOS"];
+console.log(grupo);
+//artur feito por raul(nicolas não veio)//
+grupo.splice(4,1,"LUIZA RAQUEL NICHETTI");
+console.log(grupo);
+//diego feito por raul//
+let grupo5=["GIOVANNA HIPOLITO","GRAZIELI VITORIA","GUILHERME MOREIRA","GUILHERME SANTOS"];
+console.log(grupo5);
+//eduardo feito por renato//
+grupo5.push("WILLYAN GABRIEL FLORES DE MATOS");
+console.log(grupo5);
+//gabriel feito por samuel//
+grupo5.unshift("SAMUEL KRAKHECKE DIAS");
+console.log(grupo5);
+//gianluca feito por willyan//
+grupo5.splice(0,1,"GABRIELLY FERREIRA DE ASSIS");
+console.log(grupo5);
+//giovanna feito por gabrielly//
+grupo5.splice(5,1,"NICOLAS VIEIRA DIAS RODRIGUES");
+console.log(grupo5);
+//faltou da grazieli//
+//guilherme moreira feito por layo//
+grupo5.push("GIOVANNA AMORIM BALLES");
+console.log(grupo5);
+//guilherme santos feito por mateus//
+grupo5.unshift("INGRID FRANCK BITTENCOURT MOREIRA");
+console.log(grupo5);
